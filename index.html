@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ROCK PAPER SCISSOR</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">ROCK PAPER SCISSOR</h1>
+
+        <button id="start-button">START</button>
+
+        <div class="container">
+            <div id="player">
+                <h1 id="player-display" class="display">P</h1>
+            </div>
+            <div id="computer">
+                <h1 id="computer-display" class="display">C</h1>
+            </div>
+        </div>
+        <div id="gamePlay" hidden>
+            <h3 class="gameText">Game Starts</h3>
+        </div>
+        <div id="all-images">
+
+                <img id="rock" class="images" src="images/rock.png" alt="Rock">           
+                <img id="paper" class="images" src="images/paper.png" alt="Paper">
+                <img id="scissor" class="images" src="images/scissor.png" alt="Scissor">
+            
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="index.js" async defer></script>
+    </body>
+</html>

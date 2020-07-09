@@ -1,0 +1,79 @@
+body{
+    background-color: #d92027;
+    text-align: center;
+}
+
+#title{
+    font-family: 'Yellowtail', cursive;
+    font-size: 5rem;
+}
+
+#start-button{
+    margin-bottom: 53.6px;
+    box-sizing: content-box;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 20%
+}
+
+.container{
+    width: 100%;
+    height: 80%;
+    font-size: 0;
+    
+}
+
+#player{
+    display: inline-block;
+    border:5px solid;
+    border-color: #ff9234;
+    background-color: #ffcd3c;
+}
+
+#computer{
+    display: inline-block;
+    border:5px solid;
+    border-color: #ff9234;
+    background-color: #ffcd3c;
+}
+
+.display{
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    padding: 50px 0;
+    font-size: 280px;
+}
+
+.images-inside{
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    padding: 50px 0;
+}
+
+#all-images{
+    padding: 0 50px 50px;
+}
+
+.images{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+}
+
+.images-border{
+    border:5px black solid;
+
+}
+
+.images:hover{
+    cursor: pointer;
+}
+
+.gameText{
+    padding: 50px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 3rem;
+}
